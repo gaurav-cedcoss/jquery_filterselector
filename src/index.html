@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FILTERS</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="myscript.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="form">
+        <div id="header">
+            <!-- <button id="bt">Search</button> -->
+            <input type="search" name="" id="srch"><br>
+
+            <!-- //brand -->
+            <div id="contianer">
+            <div class="dropdown" style="float:left;">
+                <button class="dropbtn">brand</button>
+                <div class="dropdown-content" style="left:0;"  id="content1"> 
+                <a href="#" id="all">All Brands</a>
+                <a href="#" id="apple">Apple</a>
+                <a href="#" id="motorola">Motorola</a>
+                <a href="#" id="sumsung">Sumsung</a>
+                <a href="#" id="asus">Asus</a>
+                <a href="#" id="microsoft">Microsoft</a>
+
+                </div>
+              </div>
+
+              <div class="dropdown  style="float:left; margin-left: 90px; top:-20px">
+                <button class="dropbtn dbdown">OS</button>
+                <div class="dropdown-content" id="content2">
+                <a href="#" id="allos">All OS</a>
+                <a href="#" id="ios">iOS</a>
+                <a href="#" id="android">Android</a>
+                <a href="#" id="windows">Windows</a>
+                </div>
+              </div>
+            </div>
+
+        </div>
+        <table>
+            <tr>
+                
+                <th>ID</th>
+                <th>Name</th>
+                <th>Brand</th>
+                <th>Operating System</th>
+                <th>Hide</th>
+                <th>Add To cart</th>
+            </tr>
+            <tbody id="table"></tbody>
+            
+        </table>
+
+        <div id="cart">
+            <h2>MY CART</h2>
+            <label id="warning"></label>
+            <table id="cartTable">
+                <tr id="cartName">
+                    <th>Product Name</th>
+                </tr>
+                <tbody id="tb"></tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

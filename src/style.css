@@ -1,0 +1,110 @@
+table, tr, th,td{
+    border: 2px solid black
+    border-collapse: collapse;
+    margin-top: 10px;
+    text-align: center;
+    padding: 7px 10px;
+
+}
+
+#form{
+    margin: auto;
+    width: 36rem;
+    padding: 30px 50px;
+    
+}
+
+input{
+    max-width: 6rem;
+    float: right;
+}
+button{
+    padding: 1px 8px;
+    float: left;
+
+}
+#msg{
+    font-size: 13px;
+    position: relative;
+    left: 172px;
+}
+.dropbtn {
+    padding: 5px 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    left: 0px;
+    top:-30px
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    min-width: 160px;
+     
+    z-index: 5;
+    margin-left: 10px;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 2px 0px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  #content1{
+    left: -20px;
+    top: 20px;
+  }
+  #content2{
+    left: 0px;
+    top: 20px;
+}
+#contianer h3{
+  letter-spacing: 2px;
+
+}
+
+*{
+    font-family: sans-serif !important;
+}
+
+
+#cart{
+  position: relative;
+  float: left;
+  width: 200px;
+  margin:auto;
+  top:50px;
+  font-family: sans-serif;
+  /* border-left-color: transparent;
+  border-right-color: transparent; */
+  border: 1px solid black;
+  padding: 20px; 
+}
+
+
+#cart li{
+  
+  margin-left:20px;
+  margin-top: 15px;
+  letter-spacing: 4px;
+}
+
+#tb{
+  margin-top:20px;
+  width: 200px;
+  text-align: center;
+}
